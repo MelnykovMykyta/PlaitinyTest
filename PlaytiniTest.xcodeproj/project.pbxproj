@@ -7,23 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		774B50642B34E3330099ACE9 /* PressStart2P-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 774B50632B34E3330099ACE9 /* PressStart2P-Regular.ttf */; };
+		774B50692B35C3920099ACE9 /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 774B50682B35C3920099ACE9 /* Alert.swift */; };
+		774B506B2B35C5950099ACE9 /* VCChanger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 774B506A2B35C5950099ACE9 /* VCChanger.swift */; };
 		776491D32B3489DB003C7127 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 776491D22B3489DB003C7127 /* AppDelegate.swift */; };
 		776491D52B3489DB003C7127 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 776491D42B3489DB003C7127 /* SceneDelegate.swift */; };
-		776491D72B3489DB003C7127 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 776491D62B3489DB003C7127 /* ViewController.swift */; };
-		776491DA2B3489DB003C7127 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 776491D82B3489DB003C7127 /* Main.storyboard */; };
 		776491DC2B3489DF003C7127 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 776491DB2B3489DF003C7127 /* Assets.xcassets */; };
 		776491DF2B3489DF003C7127 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 776491DD2B3489DF003C7127 /* LaunchScreen.storyboard */; };
+		776491E92B348A80003C7127 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 776491E82B348A80003C7127 /* MainVC.swift */; };
+		9E61A10C8070ED5996117AF1 /* Pods_PlaytiniTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8027E8DD405DE2C8EDF965E /* Pods_PlaytiniTest.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		774B50632B34E3330099ACE9 /* PressStart2P-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PressStart2P-Regular.ttf"; sourceTree = "<group>"; };
+		774B50682B35C3920099ACE9 /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
+		774B506A2B35C5950099ACE9 /* VCChanger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCChanger.swift; sourceTree = "<group>"; };
 		776491CF2B3489DB003C7127 /* PlaytiniTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlaytiniTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		776491D22B3489DB003C7127 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		776491D42B3489DB003C7127 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		776491D62B3489DB003C7127 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		776491D92B3489DB003C7127 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		776491DB2B3489DF003C7127 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		776491DE2B3489DF003C7127 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		776491E02B3489DF003C7127 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		776491E82B348A80003C7127 /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
+		AB06D2ED1FA8E8848A64EEAB /* Pods-PlaytiniTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlaytiniTest.release.xcconfig"; path = "Target Support Files/Pods-PlaytiniTest/Pods-PlaytiniTest.release.xcconfig"; sourceTree = "<group>"; };
+		ACFD75FB865C331D9697C280 /* Pods-PlaytiniTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlaytiniTest.debug.xcconfig"; path = "Target Support Files/Pods-PlaytiniTest/Pods-PlaytiniTest.debug.xcconfig"; sourceTree = "<group>"; };
+		E8027E8DD405DE2C8EDF965E /* Pods_PlaytiniTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PlaytiniTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +39,53 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9E61A10C8070ED5996117AF1 /* Pods_PlaytiniTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4C5FDC0F683CF7684CBD5584 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E8027E8DD405DE2C8EDF965E /* Pods_PlaytiniTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		774B50652B34E6BC0099ACE9 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				774B50632B34E3330099ACE9 /* PressStart2P-Regular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		774B50662B34E6D00099ACE9 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				776491E82B348A80003C7127 /* MainVC.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		774B50672B35C37E0099ACE9 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				774B50682B35C3920099ACE9 /* Alert.swift */,
+				774B506A2B35C5950099ACE9 /* VCChanger.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
 		776491C62B3489DB003C7127 = {
 			isa = PBXGroup;
 			children = (
 				776491D12B3489DB003C7127 /* PlaytiniTest */,
 				776491D02B3489DB003C7127 /* Products */,
+				80657C423899C3A79F784B1C /* Pods */,
+				4C5FDC0F683CF7684CBD5584 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +100,41 @@
 		776491D12B3489DB003C7127 /* PlaytiniTest */ = {
 			isa = PBXGroup;
 			children = (
+				774B50672B35C37E0099ACE9 /* Helpers */,
+				776491E62B348A00003C7127 /* Aplication */,
+				774B50662B34E6D00099ACE9 /* Controllers */,
+				776491E72B348A12003C7127 /* Resources */,
+			);
+			path = PlaytiniTest;
+			sourceTree = "<group>";
+		};
+		776491E62B348A00003C7127 /* Aplication */ = {
+			isa = PBXGroup;
+			children = (
 				776491D22B3489DB003C7127 /* AppDelegate.swift */,
 				776491D42B3489DB003C7127 /* SceneDelegate.swift */,
-				776491D62B3489DB003C7127 /* ViewController.swift */,
-				776491D82B3489DB003C7127 /* Main.storyboard */,
+			);
+			path = Aplication;
+			sourceTree = "<group>";
+		};
+		776491E72B348A12003C7127 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				774B50652B34E6BC0099ACE9 /* Fonts */,
 				776491DB2B3489DF003C7127 /* Assets.xcassets */,
 				776491DD2B3489DF003C7127 /* LaunchScreen.storyboard */,
 				776491E02B3489DF003C7127 /* Info.plist */,
 			);
-			path = PlaytiniTest;
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		80657C423899C3A79F784B1C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				ACFD75FB865C331D9697C280 /* Pods-PlaytiniTest.debug.xcconfig */,
+				AB06D2ED1FA8E8848A64EEAB /* Pods-PlaytiniTest.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +144,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 776491E32B3489DF003C7127 /* Build configuration list for PBXNativeTarget "PlaytiniTest" */;
 			buildPhases = (
+				F31E415E5B4B95383CB90947 /* [CP] Check Pods Manifest.lock */,
 				776491CB2B3489DB003C7127 /* Sources */,
 				776491CC2B3489DB003C7127 /* Frameworks */,
 				776491CD2B3489DB003C7127 /* Resources */,
+				E222494057FF84E27B0D5B19 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,21 +197,65 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				774B50642B34E3330099ACE9 /* PressStart2P-Regular.ttf in Resources */,
 				776491DF2B3489DF003C7127 /* LaunchScreen.storyboard in Resources */,
 				776491DC2B3489DF003C7127 /* Assets.xcassets in Resources */,
-				776491DA2B3489DB003C7127 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		E222494057FF84E27B0D5B19 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PlaytiniTest/Pods-PlaytiniTest-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PlaytiniTest/Pods-PlaytiniTest-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PlaytiniTest/Pods-PlaytiniTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F31E415E5B4B95383CB90947 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PlaytiniTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		776491CB2B3489DB003C7127 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				776491D72B3489DB003C7127 /* ViewController.swift in Sources */,
+				776491E92B348A80003C7127 /* MainVC.swift in Sources */,
 				776491D32B3489DB003C7127 /* AppDelegate.swift in Sources */,
+				774B506B2B35C5950099ACE9 /* VCChanger.swift in Sources */,
+				774B50692B35C3920099ACE9 /* Alert.swift in Sources */,
 				776491D52B3489DB003C7127 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -147,14 +263,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		776491D82B3489DB003C7127 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				776491D92B3489DB003C7127 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		776491DD2B3489DF003C7127 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -282,6 +390,7 @@
 		};
 		776491E42B3489DF003C7127 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ACFD75FB865C331D9697C280 /* Pods-PlaytiniTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -289,12 +398,12 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = HHTA648R26;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = PlaytiniTest/Info.plist;
+				INFOPLIST_FILE = PlaytiniTest/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -310,6 +419,7 @@
 		};
 		776491E52B3489DF003C7127 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB06D2ED1FA8E8848A64EEAB /* Pods-PlaytiniTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -317,12 +427,12 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = HHTA648R26;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = PlaytiniTest/Info.plist;
+				INFOPLIST_FILE = PlaytiniTest/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
